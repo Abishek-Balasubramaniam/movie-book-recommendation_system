@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'book:recommend_book' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="{% url 'book:about' %}">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid" style="margin-top: 4%; padding-left: 2%; padding-right: 2%;">
+        <h3>Recommendation systems:</h3>
+        <p> Recommender systems are beneficial to both service providers and users in an online shopping and content consuming (Youtube, Netflix, etc.,) environment. Recommendation systems also improve the decision-making process.</p>
+
+    <h3>What is Content Based Recommendation?</h3>
+    <p> In the content recommender system, the content of the movie (overview, cast, crew, keyword, tagline etc) is used to find its similarity with that of the books. Then the books that are most likely to be similar are recommended.</p>  
+    <h3>Importance of Recommendation systems</h3>
+
+    <p>As stated earlier, Recommendation systems have been beneficial in online shopping and content consuming environments. Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors.</p> 
+
+    <h3>Influence of Recommendation Systems:</h3>
+    <ol>
+        <li>Recommendation engine algorithms make personalized recommendations based on past historical data about the customers and this results in significant benefits. For example, in the case of Netflix, more than 80% of the content that subscribers watch comes through the personalized recommendation that the service offers.</li>
+        <li>Recommendations are extremely important to provide a good user experience from the user’s viewpoint.</li>
+    </ol>
+
+      </div>
+    
+
+
+</body>
+</html>
